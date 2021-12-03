@@ -6,7 +6,7 @@ import { StaticImage } from "gatsby-plugin-image";
 const Footer = () => {
   return (
     <div className="bg-gray-200">
-      <div className="container mx-auto w-10/12">
+      <div className="container mx-auto md:w-10/12 w-full px-4 md:px-0">
         <div className="text-black px-4 py-6 pb-10 flex justify-between">
           <div className="">
             <div>
@@ -24,12 +24,12 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex space-x-7 text-black">
-            <ul className="flex text-sm font-semibold space-x-7">
-              <li>
+          <div className="md:flex md:space-x-7  text-black">
+            <ul className="md:flex text-sm font-semibold md:space-x-7">
+              <li className="pb-4 md:pb-0">
                 <div className="dropdown inline-block relative">
-                  <button className="text-black font-semibold px-6 rounded inline-flex items-center">
-                    <span className="mr-1">Products</span>
+                  <button className="text-black font-semibold md:px-6 rounded inline-flex items-center">
+                    <span className="md:mr-1">Products</span>
                     <svg
                       className="fill-current h-4 w-4"
                       xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@ const Footer = () => {
                   </ul>
                 </div>
               </li>
-              <li>
+              <li className="pb-4 md:pb-0">
                 <Link
                   key="pricing"
                   to="/pricing"
@@ -78,12 +78,12 @@ const Footer = () => {
                   pricing
                 </Link>
               </li>
-              <li>
+              <li className="pb-4 md:pb-0">
                 <Link key="about" to="/about" className="hover:text-purple-600">
                   About Us
                 </Link>
               </li>
-              <li>
+              <li className="pb-4 md:pb-0">
                 <Link
                   key="contact"
                   to="/contact"
@@ -96,12 +96,12 @@ const Footer = () => {
           </div>
         </div>
         {/* End Top */}
-        <div className="py-4 flex border-t-2 border-black justify-between items-center text-black">
-          <div className="text-sm">
+        <div className="py-4 md:flex border-t-2 border-black justify-between items-center text-black">
+          <div className="text-xs md:text-sm">
             Copyright &copy; {new Date().getFullYear()} · Digital Research
             Corporation - Confidential
           </div>
-          <div className="text-sm">
+          <div className="text-xs md:text-xs">
             <ul className="flex item-center space-x-12">
               <li>
                 <Link
