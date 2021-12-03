@@ -1,7 +1,12 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "trainingSite",
+    siteTitle: "e-commerce",
+    siteTitleDefault: "mm-commerce",
+    siteUrl: "https://shopify-demo.gatsbyjs.com",
+    hrefLang: "en",
+    siteDescription:
+      "A Gatsby starter using the latest Shopify plugin showcasing a store with product overview, individual product pages, and a cart.",
+    siteImage: "/logo.jpeg",
   },
   plugins: [
     "gatsby-plugin-image",
@@ -23,5 +28,6 @@ module.exports = {
       },
       __key: "images",
     },
+    "gatsby-plugin-postcss",
   ],
 };
