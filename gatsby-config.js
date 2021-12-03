@@ -1,12 +1,11 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: "e-commerce",
-    siteTitleDefault: "mm-commerce",
+    siteTitle: "Readme Training",
+    siteTitleDefault: "Readme",
     siteUrl: "https://shopify-demo.gatsbyjs.com",
     hrefLang: "en",
-    siteDescription:
-      "A Gatsby starter using the latest Shopify plugin showcasing a store with product overview, individual product pages, and a cart.",
-    siteImage: "/logo.jpeg",
+    siteDescription: "Readme Documentation",
+    siteImage: "/logo.png",
   },
   plugins: [
     "gatsby-plugin-image",
