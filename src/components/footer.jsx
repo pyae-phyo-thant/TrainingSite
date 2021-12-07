@@ -13,8 +13,7 @@ const Footer = () => {
               <Link key="logo" to="/">
                 <StaticImage
                   src="../images/logo.png"
-                  layout="fixed"
-                  width={50}
+                  width={150}
                   height={50}
                   alt="Readme logo"
                 />

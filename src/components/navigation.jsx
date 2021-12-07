@@ -15,8 +15,7 @@ const Navigation = () => {
             <Link key="logo" to="/">
               <StaticImage
                 src="../images/logo.png"
-                layout="fixed"
-                width={50}
+                width={150}
                 height={50}
                 alt="Readme logo"
               />
@@ -26,7 +25,7 @@ const Navigation = () => {
             <ul className="flex items-center font-semibold space-x-7 text-md">
               <li>
                 <div className="dropdown inline-block relative">
-                  <button className="bg-white text-black font-semibold py-2 px-6 rounded inline-flex items-center">
+                  <button className="bg-white text-black font-semibold py-2 rounded inline-flex items-center">
                     <span className="mr-1">Products</span>
                     <svg
                       className="fill-current h-4 w-4"
@@ -36,10 +35,11 @@ const Navigation = () => {
                       <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />{" "}
                     </svg>
                   </button>
-                  <ul className="dropdown-menu absolute hidden text-black pt-1">
+                  <ul className="dropdown-menu md:z-10 absolute hidden text-black md:w-max pt-1">
                     <li className="">
                       <Link
                         key="Localization-1"
+                        activeClassName="text-purple-600"
                         className="rounded-t hover:text-purple-600 bg-gray-200 py-2 px-4 block whitespace-no-wrap"
                         to="/localization-1"
                       >
@@ -49,6 +49,7 @@ const Navigation = () => {
                     <li className="">
                       <Link
                         key="Localization-2"
+                        activeClassName="text-purple-600"
                         className="bg-gray-200 hover:text-purple-600 py-2 px-4 block whitespace-no-wrap"
                         to="/localization-2"
                       >
@@ -56,13 +57,14 @@ const Navigation = () => {
                       </Link>
                     </li>
                     <li className="">
-                      <a
+                      <Link
                         key="Localization-3"
+                        activeClassName="text-purple-600"
                         className="rounded-b bg-gray-200 hover:text-purple-600 py-2 px-4 block whitespace-no-wrap"
                         to="/localization-3"
                       >
                         Localization 3
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -71,13 +73,19 @@ const Navigation = () => {
                 <Link
                   key="pricing"
                   to="/pricing"
+                  activeClassName="text-purple-600"
                   className="hover:text-purple-600"
                 >
                   pricing
                 </Link>
               </li>
               <li>
-                <Link key="about" to="/about" className="hover:text-purple-600">
+                <Link
+                  key="about"
+                  to="/about"
+                  activeClassName="text-purple-600"
+                  className="hover:text-purple-600"
+                >
                   About Us
                 </Link>
               </li>
@@ -85,6 +93,7 @@ const Navigation = () => {
                 <Link
                   key="contact"
                   to="/contact"
+                  activeClassName="text-purple-600"
                   className="hover:text-purple-600"
                 >
                   Contact Us

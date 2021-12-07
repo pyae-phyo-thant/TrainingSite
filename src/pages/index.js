@@ -13,7 +13,7 @@ const AboutUs = () => {
       <StaticImage
         src="../images/logo.png"
         layout="fixed"
-        width={80}
+        width={150}
         height={80}
         alt="Readme logo"
         className="pb-8"
