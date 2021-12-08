@@ -1,13 +1,15 @@
 import React from "react";
+import { Helmet } from "react-helmet";
+
 import Footer from "./footer";
 import Header from "./header";
 
 import { Seo } from "./seo";
 
-function Layout({ children }) {
+function Layout({ children, title }) {
   return (
     <div>
-      <Seo />
+      <Seo title={title} />
       <Header />
       {children}
       <Footer />

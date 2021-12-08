@@ -86,7 +86,7 @@ const Footer = () => {
           </div>
         </div>
         {/* End Top */}
-        <div className="py-4 md:flex border-t-2 border-gray-200 justify-between items-center text-black">
+        <div className="py-4 md:flex border-t-2 border-gray-300 justify-between items-center text-black">
           <div className="text-xs md:text-sm">
             Copyright &copy; {new Date().getFullYear()} · Digital Research
             Corporation - Confidential

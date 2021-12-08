@@ -50,7 +50,7 @@ const IndexPage = () => {
     <Loading />
   ) : (
     <>
-      <Layout>
+      <Layout title="Home">
         <Hero
           description={`
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum

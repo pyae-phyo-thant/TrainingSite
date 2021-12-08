@@ -6,7 +6,7 @@ import Layout from "../components/layout";
 const Pricing = () => {
   return (
     <>
-      <Layout>
+      <Layout title="Pricing">
         <div className="relative text-center">
           <StaticImage
             src="../images/hero.png"
@@ -15,7 +15,7 @@ const Pricing = () => {
             height="330"
           />
           <div className="absolute text-black items-center text-xs w-full md:text-lg top-7 md:top-16">
-            <h3 className="md:text-4xl text-2xl">Pricing Plan</h3>
+            <h3 className="md:text-4xl text-4xl">Pricing Plan</h3>
             <p className="text-md pt-2">
               We offer a range of support services to help you get the most out
               of your Digital Stacks
@@ -24,7 +24,7 @@ const Pricing = () => {
         </div>
         <div className="py-10 m-auto grid md:grid-cols-3 gap-4 grid-cols-1 md:w-10/12 px-4 md:px-0">
           <div className="shadow-lg md:w-80 w-full bg-gray-100 py-10 md:px-4 px-2 text-center">
-            <p className="text-black dark:text-white text-center text-3xl font-bold">
+            <p className="text-purple-800 dark:text-white text-center text-3xl font-bold">
               Standard
             </p>
             <p className="text-gray-500 dark:text-gray-300 text-center text-sm mb-4">
@@ -114,8 +114,8 @@ const Pricing = () => {
               Purchase Now
             </button>
           </div>
-          <div className="shadow-lg border-t-8 border-purple-800 md:w-80 w-full bg-gray-100 py-10 md:px-4 px-2 text-center">
-            <p className="text-black dark:text-white text-center text-3xl font-bold">
+          <div className="shadow-lg border-t-8 border-purple-900 md:w-80 w-full bg-gray-100 py-10 md:px-4 px-2 text-center">
+            <p className="text-purple-800 dark:text-white text-center text-3xl font-bold">
               Professional
             </p>
             <p className="text-gray-500 dark:text-gray-300 text-center text-sm mb-4">
@@ -206,7 +206,7 @@ const Pricing = () => {
             </button>
           </div>
           <div className="shadow-lg md:w-80 w-full bg-gray-100 py-10 md:px-4 px-2 text-center">
-            <p className="text-black dark:text-white text-center text-3xl font-bold">
+            <p className="text-purple-800 dark:text-white text-center text-3xl font-bold">
               Enterprise
             </p>
             <p className="text-gray-500 dark:text-gray-300 text-center text-sm mb-4">

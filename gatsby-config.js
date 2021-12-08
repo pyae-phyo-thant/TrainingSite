@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: "Readme Training",
+    siteTitle: "Readme Training Site",
     siteTitleDefault: "Readme",
     siteUrl: "https://shopify-demo.gatsbyjs.com",
     hrefLang: "en",

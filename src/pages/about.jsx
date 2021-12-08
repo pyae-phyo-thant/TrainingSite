@@ -8,7 +8,7 @@ import Layout from "../components/layout";
 const About = () => {
   return (
     <>
-      <Layout>
+      <Layout title="About">
         <Hero
           title="About Us"
           description={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
@@ -40,7 +40,7 @@ const About = () => {
               alt="Readme logo"
               className="mb-5"
             />
-            <p className="text-md text-justify md:pb-10 pb-4">
+            <p className="text-md text-justify md:pb-2 pb-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatum provident dolores illo labore, dignissimos porro? Neque
               odio, magni ducimus dignissimos accusantium optio qui? Obcaecati
@@ -57,7 +57,7 @@ const About = () => {
           </div>
           <Link
             key="see-more"
-            to="/about"
+            to="/contact"
             className="bg-purple-600 hover:bg-purple-800 rounded-full text-center text-white py-2 px-6 mb-6 md:mb-0"
           >
             Contact Us

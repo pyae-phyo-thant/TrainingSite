@@ -6,7 +6,7 @@ import Layout from "../components/layout";
 const LocalTwo = () => {
   return (
     <>
-      <Layout>
+      <Layout title="Localization-2">
         <Hero
           title={`[Localization 2]`}
           extra="Docs Site Building & Maintenance"
