@@ -3,12 +3,12 @@ import React from "react";
 import Hero from "../components/hero";
 import Layout from "../components/layout";
 
-const LocalOne = () => {
+const LocalTwo = () => {
   return (
     <>
       <Layout>
         <Hero
-          title={`[Localization 1]`}
+          title={`[Localization 2]`}
           extra="Docs Site Building & Maintenance"
           description={`Lorem ipsum dolor sit amet consectetur adipisicing elit.`}
         />
@@ -85,4 +85,4 @@ const LocalOne = () => {
   );
 };
 
-export default LocalOne;
+export default LocalTwo;

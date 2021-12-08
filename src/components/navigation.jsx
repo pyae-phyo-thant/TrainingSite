@@ -10,7 +10,7 @@ const Navigation = () => {
   return (
     <>
       <div className="text-gray-900 text-sm">
-        <nav className="bg-white container xs:hidden mb-hide mx-auto w-10/12 text-black px-4 py-3 flex items-center justify-between">
+        <nav className="bg-white xs:hidden mb-hide mx-auto w-11/12 text-black px-4 py-3 flex items-center justify-between">
           <div className="flex items-center space-x-4">
             <Link key="logo" to="/">
               <StaticImage
@@ -40,7 +40,7 @@ const Navigation = () => {
                       <Link
                         key="Localization-1"
                         activeClassName="text-purple-600"
-                        className="rounded-t hover:text-purple-600 bg-gray-200 py-2 px-4 block whitespace-no-wrap"
+                        className="rounded-t hover:text-purple-600 bg-white py-2 px-4 block whitespace-no-wrap"
                         to="/localization-1"
                       >
                         Localization 1
@@ -50,7 +50,7 @@ const Navigation = () => {
                       <Link
                         key="Localization-2"
                         activeClassName="text-purple-600"
-                        className="bg-gray-200 hover:text-purple-600 py-2 px-4 block whitespace-no-wrap"
+                        className="bg-white hover:text-purple-600 py-2 px-4 block whitespace-no-wrap"
                         to="/localization-2"
                       >
                         Localization 2
@@ -60,7 +60,7 @@ const Navigation = () => {
                       <Link
                         key="Localization-3"
                         activeClassName="text-purple-600"
-                        className="rounded-b bg-gray-200 hover:text-purple-600 py-2 px-4 block whitespace-no-wrap"
+                        className="rounded-b bg-white hover:text-purple-600 py-2 px-4 block whitespace-no-wrap"
                         to="/localization-3"
                       >
                         Localization 3
