@@ -10,6 +10,7 @@ import Layout from "../components/layout";
 
 const Contact = () => {
   const form = useRef();
+
   const {
     handleSubmit,
     control,
@@ -36,6 +37,7 @@ const Contact = () => {
         }
       );
     reset();
+    form.current.reset();
   };
 
   return (
@@ -56,7 +58,7 @@ const Contact = () => {
             </p>
           </div>
           <div className="md:w-11/12 m-auto md:mb-10 md:h-screen">
-            <div className="shadow-md md:px-12 md:py-12 py-5 px-3 text-center md:rounded-lg bottom-0 bg-white md:absolute left-0 right-0 md:w-10/12 m-auto">
+            <div className="shadow-md md:px-12 md:py-6 py-5 px-3 text-center md:rounded-lg bottom-0 bg-white md:absolute left-0 right-0 md:w-10/12 m-auto">
               <h1 className="pb-6 md:text-xl text-lg">
                 For inquiries and service demonstration requests,
                 <br />
@@ -71,7 +73,7 @@ const Contact = () => {
                 ref={form}
                 onSubmit={handleSubmit(sendEmail)}
               >
-                <div className="mb-4 grid md:grid-cols-2 grid-cols-1 gap-6">
+                <div className="mb-1 grid md:grid-cols-2 grid-cols-1 gap-6">
                   <div>
                     <label
                       className="block text-gray-700 text-sm font-bold mb-2 text-left"
@@ -148,7 +150,7 @@ const Contact = () => {
                     />
                   </div>
                 </div>
-                <div className="mb-6 grid gap-6">
+                <div className="mb-6 grid gap-2">
                   <div>
                     <label
                       className="block text-gray-700 text-sm font-bold mb-2 text-left"
@@ -317,7 +319,6 @@ const Contact = () => {
                           fullWidth
                           type="text"
                           size="small"
-                          label="Message"
                           multiline
                           rows={3}
                           placeholder="enter your message"
