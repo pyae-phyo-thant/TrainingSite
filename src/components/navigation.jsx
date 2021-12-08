@@ -154,6 +154,15 @@ const Navigation = () => {
                 </div>
               </li>
               <li>
+                <Link
+                  key="pricing"
+                  to="/pricing"
+                  className="hover:text-purple-600"
+                >
+                  Pricing
+                </Link>
+              </li>
+              <li>
                 <Link key="about" to="/about" className="hover:text-purple-600">
                   About Us
                 </Link>
@@ -174,7 +183,7 @@ const Navigation = () => {
               <StaticImage
                 src="../images/logo.png"
                 layout="fixed"
-                width={36}
+                width={90}
                 height={36}
                 alt="Readme logo"
               />

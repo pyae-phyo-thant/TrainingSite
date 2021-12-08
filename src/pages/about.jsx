@@ -19,7 +19,7 @@ const About = () => {
             <StaticImage
               src="../images/logo.png"
               layout="fixed"
-              width={50}
+              width={150}
               height={50}
               alt="Readme logo"
               className="mb-5 mt-8 md:mt-0"
@@ -35,7 +35,7 @@ const About = () => {
             <StaticImage
               src="../images/logo.png"
               layout="fixed"
-              width={50}
+              width={150}
               height={50}
               alt="Readme logo"
               className="mb-5"
@@ -46,14 +46,14 @@ const About = () => {
               odio, magni ducimus dignissimos accusantium optio qui? Obcaecati
               ducimus libero, commodi quas vel dolore?
             </p>
-            <a
+            {/* <a
               href="https://digitalresearch.net"
               target="_blank"
               rel="noreferrer"
               className="text-blue-600 hover:text-blue-900 md:float-left float-none"
             >
               https://digitalresearch.net
-            </a>
+            </a> */}
           </div>
           <Link
             key="see-more"

@@ -28,7 +28,7 @@ const Footer = () => {
               <li className="pb-4 md:pb-0">
                 <span className="md:mr-1">Products</span>
 
-                <ul className="md:absolute text-sm grid grid-cols-2 md:grid-cols-1 gap-4 md:gap-0  text-black pt-1">
+                <ul className="md:absolute text-xs md:gap-0  text-black pt-1">
                   <li className="">
                     <Link
                       key="Localization-1"
@@ -50,7 +50,7 @@ const Footer = () => {
                   <li className="">
                     <Link
                       key="Localization-3"
-                      className="rounded-b bg-gray-100 hover:text-purple-600 py-2 block whitespace-no-wrap"
+                      className="rounded-b bg-gray-100 hover:text-purple-600 py-2 pb-0 block whitespace-no-wrap"
                       to="/localization-3"
                     >
                       Localization 3
@@ -86,7 +86,7 @@ const Footer = () => {
           </div>
         </div>
         {/* End Top */}
-        <div className="py-4 md:flex border-t-2 border-gray-300 justify-between items-center text-black">
+        <div className="py-4 mx-2 md:flex border-t-2 border-gray-300 justify-between items-center text-black">
           <div className="text-xs md:text-sm">
             Copyright &copy; {new Date().getFullYear()} · Digital Research
             Corporation - Confidential
