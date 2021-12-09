@@ -18,7 +18,7 @@ const Footer = () => {
                   alt="Readme logo"
                 />
               </Link>
-              <div className="something pt-5">
+              <div className="something pt-5 pb-4 border-b-2 text-justify border-gray-300 md:px-0 md:border-b-0">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
                 facilis odit numquam, eius eos minima atque at quod eligendi
                 ducimus vero ipsa, nulla cupiditate iusto fugit quis laudantium?
@@ -26,7 +26,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="md:flex md:space-x-7  text-black">
+          <div className="md:flex md:space-x-7  text-black pt-2 md:pt-0">
             <ul className="md:flex text-sm font-semibold md:space-x-7">
               <li className="pb-4 md:pb-0">
                 <span className="md:mr-1">Products</span>
