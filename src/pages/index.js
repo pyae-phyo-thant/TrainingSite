@@ -9,7 +9,7 @@ import Loading from "../components/loading";
 
 const AboutUs = () => {
   return (
-    <div className="md:py-12 mb-8 md:mb-0 md:px-0 text-center m-auto container md:w-10/12 px-4">
+    <div className="md:py-12 mb-8 md:mb-0 md:px-0 text-center m-auto container md:w-11/12 px-4">
       <h3 className="pb-16 font-semibold text-3xl">About Us</h3>
       <StaticImage
         src="../images/logo.png"

@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="bg-gray-100">
       <div className="mx-auto md:w-11/12 w-full md:px-0">
         <div className="text-black px-4 py-6 pb-10 md:flex justify-between">
-          <div className="">
+          <div className="md:w-2/5">
             <div>
               <Link key="logo" to="/">
                 <StaticImage
@@ -19,7 +19,10 @@ const Footer = () => {
                 />
               </Link>
               <div className="something pt-5">
-                xxxxxxxxx <br /> xxxxxxxxxxx <br /> xxxxxx
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                facilis odit numquam, eius eos minima atque at quod eligendi
+                ducimus vero ipsa, nulla cupiditate iusto fugit quis laudantium?
+                Ipsam, deserunt.
               </div>
             </div>
           </div>

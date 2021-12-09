@@ -40,7 +40,7 @@ const LocalTwo = () => {
           <div className="md:grid md:grid-cols-2 grid-cols-1 flex flex-col-reverse gap-8 pb-6">
             <div>
               <h1 className="font-bold md:text-xl text-lg pb-6">
-                Introduction of docs.readmedigital.com
+                Idea for lead conversion and customer support
               </h1>
               <p className="text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
@@ -69,7 +69,7 @@ const LocalTwo = () => {
             </div>
             <div>
               <h1 className="font-bold md:text-xl text-lg pb-6">
-                Introduction of docs.readmedigital.com
+                Publishing under your own domain is available for higher plans
               </h1>
               <p className="text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis

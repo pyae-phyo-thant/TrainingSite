@@ -14,7 +14,7 @@ const About = () => {
           description={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
         provident dolores illo labore, dignissimos porro? Neque odio, magni`}
         />
-        <div className="container m-auto md:w-10/12 w-11/12 text-center mb-6 md:mb-0 md:py-16">
+        <div className="m-auto md:w-11/12 w-11/12 text-center mb-6 md:mb-0 md:py-16">
           <div className="md:pb-10">
             <StaticImage
               src="../images/logo.png"
@@ -58,7 +58,7 @@ const About = () => {
           <Link
             key="see-more"
             to="/contact"
-            className="bg-purple-600 hover:bg-purple-800 rounded-full text-center text-white py-2 px-6 mb-6 md:mb-0"
+            className="bg-purple-600 hover:bg-purple-800 rounded-full text-white py-2 px-6 mb-6 md:mb-0"
           >
             Contact Us
           </Link>

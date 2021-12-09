@@ -14,7 +14,7 @@ const Pricing = () => {
             className="w-full "
             height="330"
           />
-          <div className="absolute text-black items-center text-xs w-full md:text-lg top-7 md:top-16">
+          <div className="absolute text-white items-center text-xs w-full md:text-lg top-7 md:top-16">
             <h3 className="md:text-4xl text-4xl">Pricing Plan</h3>
             <p className="text-md pt-2">
               We offer a range of support services to help you get the most out
@@ -22,7 +22,7 @@ const Pricing = () => {
             </p>
           </div>
         </div>
-        <div className="py-10 m-auto grid md:grid-cols-3 gap-4 grid-cols-1 md:w-10/12 px-4 md:px-0">
+        <div className="md:py-16 m-auto grid md:grid-cols-3 grid-cols-1 gap-4 md:w-10/12 px-4 md:px-0">
           <div className="shadow-lg md:w-80 w-full bg-gray-100 py-10 md:px-4 px-2 text-center">
             <p className="text-purple-800 dark:text-white text-center text-3xl font-bold">
               Standard
@@ -108,7 +108,7 @@ const Pricing = () => {
               *to be paid in full
             </p>
             <button
-              className="bg-purple-600 hover:bg-purple-900 text-white mt-3  py-1 px-8 rounded-full focus:outline-none focus:shadow-outline"
+              className="bg-purple-600 hover:bg-purple-800 rounded-full text-white py-2 px-6 mb-6 md:mb-0"
               type="button"
             >
               Purchase Now
@@ -199,7 +199,7 @@ const Pricing = () => {
               *to be paid in full
             </p>
             <button
-              className="bg-purple-600 hover:bg-purple-900 text-white mt-2 py-1 px-8 rounded-full focus:outline-none focus:shadow-outline"
+              className="bg-purple-600 hover:bg-purple-800 rounded-full text-white py-2 px-6 mb-6 md:mb-0"
               type="button"
             >
               Purchase Now
@@ -290,7 +290,7 @@ const Pricing = () => {
               *to be paid in full
             </p>
             <button
-              className="bg-purple-600 hover:bg-purple-900 text-white mt-3 py-1 px-8 rounded-full focus:outline-none focus:shadow-outline"
+              className="bg-purple-600 hover:bg-purple-800 rounded-full text-white py-2 px-6 mb-6 md:mb-0"
               type="button"
             >
               Purchase Now
