@@ -22,8 +22,8 @@ const Pricing = () => {
             </p>
           </div>
         </div>
-        <div className="md:py-16 m-auto grid md:grid-cols-3 grid-cols-1 gap-4 md:w-10/12 px-4 md:px-0">
-          <div className="shadow-lg md:w-80 w-full bg-gray-100 py-10 md:px-4 px-2 text-center">
+        <div className="md:py-16 m-auto md:flex md:justify-around md:w-10/12 px-4 md:px-0">
+          <div className="shadow-lg border-t-8 border-gray-100 md:w-80 w-full bg-gray-100 py-10 md:px-4 px-2 text-center">
             <p className="text-purple-800 dark:text-white text-center text-3xl font-bold">
               Standard
             </p>
@@ -205,7 +205,7 @@ const Pricing = () => {
               Purchase Now
             </button>
           </div>
-          <div className="shadow-lg md:w-80 w-full bg-gray-100 py-10 md:px-4 px-2 text-center">
+          <div className="shadow-lg border-t-8 border-gray-100 md:w-80 w-full bg-gray-100 py-10 md:px-4 px-2 text-center">
             <p className="text-purple-800 dark:text-white text-center text-3xl font-bold">
               Enterprise
             </p>

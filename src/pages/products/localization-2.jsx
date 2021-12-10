@@ -1,18 +1,18 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
-import Hero from "../components/hero";
-import Layout from "../components/layout";
+import Hero from "../../components/hero";
+import Layout from "../../components/layout";
 
-const LocalOne = () => {
+const LocalTwo = () => {
   return (
     <>
-      <Layout title="Localization-1">
+      <Layout title="Localization-2">
         <Hero
-          title={`[Localization 1]`}
+          title={`[Localization 2]`}
           extra="Docs Site Building & Maintenance"
           description={`Lorem ipsum dolor sit amet consectetur adipisicing elit.`}
         />
-        <div className="md:py-8 py-4 md:w-11/12 px-4 md:px-0 m-auto">
+        <div className="md:py-8 py-4 md:w-10/12 px-4 md:px-0 m-auto">
           <h1 className="text-center font-bold md:text-4xl pb-6 text-2xl">
             Product Feature
           </h1>
@@ -85,4 +85,4 @@ const LocalOne = () => {
   );
 };
 
-export default LocalOne;
+export default LocalTwo;

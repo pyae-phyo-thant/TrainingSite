@@ -14,7 +14,7 @@ const About = () => {
           description={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
         provident dolores illo labore, dignissimos porro? Neque odio, magni`}
         />
-        <div className="m-auto md:w-11/12 w-11/12 text-center mb-6 md:mb-0 md:py-16">
+        <div className="m-auto md:w-10/12 w-11/12 text-center mb-6 md:mb-0 md:py-16">
           <div className="md:pb-10">
             <StaticImage
               src="../images/logo.png"

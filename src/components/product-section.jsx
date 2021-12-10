@@ -18,8 +18,10 @@ const ProductGrid = () => {
           </h1>
           <ul className="text-left">
             <li>- Introuction of docs.readmedigital.com</li>
-            <li>- Ideal of lead conversion</li>
-            <li>- Publishing under your own domain</li>
+            <li>- Ideal for lead conversion and customer support</li>
+            <li>
+              - Publishing under your own domain is available for higher plans
+            </li>
           </ul>
         </div>
       </div>
@@ -36,9 +38,9 @@ const ProductGrid = () => {
             [Localization 2] <br /> Docs Site Building & Maintenance
           </h1>
           <ul className="text-left">
-            <li>- Introuction of docs.readmedigital.com</li>
-            <li>- Ideal of lead conversion</li>
-            <li>- Publishing under your own domain</li>
+            <li>- Introuction of README Digital eBook production</li>
+            <li>- Ideal for lead conversion and customer support</li>
+            <li>- PDF delivery is also available for higher plans</li>
           </ul>
         </div>
       </div>
@@ -55,9 +57,9 @@ const ProductGrid = () => {
             [Localization 3] <br /> Docs Site Building & Maintenance
           </h1>
           <ul className="text-left">
-            <li>- Introuction of docs.readmedigital.com</li>
-            <li>- Ideal of lead conversion</li>
-            <li>- Publishing under your own domain</li>
+            <li>- Introuction of README Digital_HOWTO video production</li>
+            <li>- Ideal for lead conversion and customer support</li>
+            <li>- MP4 file delivery is also available for higher plans</li>
           </ul>
         </div>
       </div>
@@ -67,7 +69,7 @@ const ProductGrid = () => {
 
 const ProductSection = () => {
   return (
-    <div className="md:py-12 md:px-0 text-center m-auto md:w-11/12 px-4">
+    <div className="md:py-12 md:px-0 text-center m-auto md:w-10/12 px-4">
       <h3 className="pb-12 font-semibold text-3xl pt-4 md:pt-0">Products</h3>
       <ProductGrid />
     </div>

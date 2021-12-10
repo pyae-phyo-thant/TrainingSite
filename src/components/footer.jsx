@@ -6,8 +6,8 @@ import { StaticImage } from "gatsby-plugin-image";
 const Footer = () => {
   return (
     <div className="bg-gray-100">
-      <div className="mx-auto md:w-11/12 w-full md:px-0">
-        <div className="text-black px-4 py-6 pb-10 md:flex justify-between">
+      <div className="mx-auto md:w-10/12 w-full md:px-0">
+        <div className="text-black px-4 md:px-0 py-6 pb-10 md:flex justify-between">
           <div className="md:w-2/5">
             <div>
               <Link key="logo" to="/">
@@ -36,7 +36,7 @@ const Footer = () => {
                     <Link
                       key="Localization-1"
                       className="rounded-t hover:text-purple-600 bg-gray-100 py-2 block whitespace-no-wrap"
-                      to="/localization-1"
+                      to="/products/localization-1"
                     >
                       Localization 1
                     </Link>
@@ -45,7 +45,7 @@ const Footer = () => {
                     <Link
                       key="Localization-2"
                       className="bg-gray-100 hover:text-purple-600 py-2 block whitespace-no-wrap"
-                      to="/localization-2"
+                      to="/products/localization-2"
                     >
                       Localization 2
                     </Link>
@@ -54,7 +54,7 @@ const Footer = () => {
                     <Link
                       key="Localization-3"
                       className="rounded-b bg-gray-100 hover:text-purple-600 py-2 pb-0 block whitespace-no-wrap"
-                      to="/localization-3"
+                      to="/products/localization-3"
                     >
                       Localization 3
                     </Link>
