@@ -95,7 +95,7 @@ const Footer = () => {
             Corporation - Confidential
           </div>
           <div className="text-xs md:text-xs">
-            <ul className="flex item-center space-x-12">
+            <ul className="flex justify-around md:justify-items-center item-center space-x-12">
               <li>
                 <Link
                   to="/privacy-policy"
