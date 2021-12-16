@@ -34,6 +34,10 @@ const LocalTwo = () => {
                 expedita officia repellendus, fugiat quis ut voluptatem quisquam
                 voluptates provident nam? Voluptatem consequatur doloribus
                 tempora sapiente, obcaecati voluptatibus voluptatum quo eos!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                expedita officia repellendus, fugiat quis ut voluptatem quisquam
+                voluptates provident nam? Voluptatem consequatur doloribus
+                tempora sapiente, obcaecati voluptatibus voluptatum quo eos!
               </p>
             </div>
           </div>
@@ -43,6 +47,10 @@ const LocalTwo = () => {
                 Idea for lead conversion and customer support
               </h1>
               <p className="text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                expedita officia repellendus, fugiat quis ut voluptatem quisquam
+                voluptates provident nam? Voluptatem consequatur doloribus
+                tempora sapiente, obcaecati voluptatibus voluptatum quo eos!
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
                 expedita officia repellendus, fugiat quis ut voluptatem quisquam
                 voluptates provident nam? Voluptatem consequatur doloribus
@@ -72,6 +80,10 @@ const LocalTwo = () => {
                 Publishing under your own domain is available for higher plans
               </h1>
               <p className="text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                expedita officia repellendus, fugiat quis ut voluptatem quisquam
+                voluptates provident nam? Voluptatem consequatur doloribus
+                tempora sapiente, obcaecati voluptatibus voluptatum quo eos!
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
                 expedita officia repellendus, fugiat quis ut voluptatem quisquam
                 voluptates provident nam? Voluptatem consequatur doloribus
