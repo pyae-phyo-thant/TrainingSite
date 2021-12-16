@@ -69,7 +69,7 @@ const LocalTwo = () => {
           <div className="grid md:grid-cols-2 grid-cols-1 gap-8">
             <div>
               <StaticImage
-                src=".../../images/book.jpeg"
+                src="../../images/book.jpeg"
                 alt="product feature"
                 width="600"
                 height="400"
