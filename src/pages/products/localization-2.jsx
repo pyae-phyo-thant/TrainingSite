@@ -19,7 +19,7 @@ const LocalTwo = () => {
           <div className="grid md:grid-cols-2 grid-cols-1 gap-8 pb-8">
             <div>
               <StaticImage
-                src="../images/book.jpeg"
+                src="../../images/book.jpeg"
                 alt="product feature"
                 width="600"
                 height="400"
@@ -51,7 +51,7 @@ const LocalTwo = () => {
             </div>
             <div>
               <StaticImage
-                src="../images/book.jpeg"
+                src="../../images/book.jpeg"
                 alt="product feature"
                 width="600"
                 height="400"
@@ -61,7 +61,7 @@ const LocalTwo = () => {
           <div className="grid md:grid-cols-2 grid-cols-1 gap-8">
             <div>
               <StaticImage
-                src="../images/book.jpeg"
+                src=".../../images/book.jpeg"
                 alt="product feature"
                 width="600"
                 height="400"
